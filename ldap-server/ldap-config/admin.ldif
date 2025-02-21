@@ -1,0 +1,11 @@
+dn: cn=admin,dc=restaurante,dc=local
+objectClass: organizationalRole
+cn: admin
+userPassword: admin
+
+dn: uid=daniel,ou=users,dc=restaurante,dc=local
+objectClass: inetOrgPerson
+uid: daniel
+cn: user d
+sn: d
+userPassword: 123
